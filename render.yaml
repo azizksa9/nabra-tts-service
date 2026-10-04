@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nabra-tts-service
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
